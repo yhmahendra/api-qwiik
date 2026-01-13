@@ -1,0 +1,24 @@
+{
+  "name": "api-qwiik",
+  "version": "1.0.0",
+  "description": "API Testing project for GoRest",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js --timeout 5000"
+  },
+  "keywords": [
+    "api",
+    "testing",
+    "mocha",
+    "chai",
+    "supertest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "dotenv": "^17.2.3",
+    "mocha": "^11.7.5",
+    "supertest": "^7.2.2"
+  }
+}
